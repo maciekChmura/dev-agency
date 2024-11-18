@@ -1,0 +1,72 @@
+<script setup>
+import {PhCheck} from "@phosphor-icons/vue";
+
+const traditional = [
+  "6 months of minimum development time",
+  "$50,000+ for a basic MVP",
+  "Hiring a team of Dev, QA, PM, Scrum ($100k+/year each)",
+  "Many meetings and slow progress",
+  "Fragmentation of the app architecture",
+  "Security vulnerabilities",
+  "Scalability issues as users grow",
+  "Costly deployment with many services",
+  "Managing hidden costs",
+];
+
+const ideaUnlock = [
+  "MVP ready in 4 weeks",
+  "Fixed price starting at $5,999",
+  "Experienced team handles everything",
+  "Weekly updates and rapid iterations",
+  "Optimized, modern full stack (Laravel, React)",
+  "Built in security",
+  // "Deployment to a VPS",
+  "Simple scalability",
+  "24/7 tech support for 30 days post-launch",
+  "Transparent pricing"
+];
+</script>
+
+<template>
+  <div class="bg-white py-24 sm:py-32 font-work_sans banner-2">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <div class="mx-auto max-w-4xl text-center">
+        <!--        <p class=" font-semibold text-pink-600">Hiring a team is expensive</p>-->
+        <h2 class="mt-2 text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-6xl">
+          Why ideaUnlock?
+        </h2>
+      </div>
+
+      <div class="isolate mx-auto mt-10 grid max-w-md grid-cols-1 gap-8 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+        <!-- Traditional Approach -->
+        <div class="space-y-8 card flex flex-col p-12 w-fit mx-auto">
+          <h3 class="text-xl font-semibold text-gray-900">Traditional Software House</h3>
+          <img class="w-72" alt="problem with building a mvp" src="./assets/problem.svg"/>
+          <ul class="space-y-4">
+            <li v-for="(feature, index) in traditional"
+                :key="index"
+                class="flex gap-x-3 items-center text-gray-600">
+              <PhCheck :size="24" class="text-gray-400"/>
+              <span>{{ feature }}</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- With ideaUnlock -->
+        <div class="space-y-8 card flex flex-col p-12 w-fit mx-auto">
+          <h3 class="text-xl font-semibold color-red">With ideaUnlock</h3>
+          <img class="w-72" alt="problem with building a mvp" src="./assets/solution.svg"/>
+          <ul class="space-y-4">
+            <li v-for="(feature, index) in ideaUnlock"
+                :key="index"
+                class="flex gap-x-3 items-center text-gray-600">
+              <PhCheck :size="24" class="color-red"/>
+              <span>{{ feature }}</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
