@@ -3,11 +3,26 @@ import { PhCheck } from "@phosphor-icons/vue";
 
 const tiers = [
   {
+    name: "Landing Page",
+    id: "landing",
+    price: "$999",
+    description:
+      "SEO-friendly, mobile-responsive landing pages to boost leads and interest in your MVP.",
+    features: [
+      "Custom built Landing page",
+      "Custom domain",
+      "Email waitlist",
+      "SEO optimization",
+      "Free hosting",
+      "Analytics integration",
+    ],
+  },
+  {
     name: "MVP",
-    id: "tier-mvp",
+    id: "mvp",
     price: "$5,999",
     description:
-      "Perfect for validating your idea and getting to market quickly.",
+      "Turn your idea into a compelling MVP in weeks, ready to impress investors and early adopters.",
     features: [
       "Custom MVP development",
       "Core feature implementation",
@@ -20,13 +35,13 @@ const tiers = [
   },
   {
     name: "MVP+",
-    id: "tier-enterprise",
+    id: "custom",
     price: "Custom",
     description:
       "Full-featured solution with advanced capabilities and dedicated support.",
     features: [
       "Everything in MVP, plus:",
-      "Advanced security features",
+      "Multiple authentication options",
       "Custom integrations",
       "Performance optimization",
       "Scalable architecture",
@@ -50,7 +65,7 @@ const tiers = [
         100% custom MVP built for you
       </p>
       <div
-        class="isolate mx-auto mt-10 grid max-w-md grid-cols-1 gap-8 lg:mx-auto lg:max-w-4xl lg:grid-cols-2"
+        class="isolate mx-auto mt-10 grid max-w-md grid-cols-1 gap-8 lg:mx-auto lg:max-w-6xl lg:grid-cols-3"
       >
         <div
           v-for="tier in tiers"
@@ -60,7 +75,7 @@ const tiers = [
           <h3 :id="tier.id" class="font-Eczar text-3xl font-semibold">
             {{ tier.name }}
           </h3>
-          <p class="text-sm/6 mt-4">{{ tier.description }}</p>
+          <p class="text-sm/6 mt-4 h-20">{{ tier.description }}</p>
           <p class="mt-6 flex items-baseline gap-x-1">
             <span class="color-red text-4xl font-semibold tracking-tight">{{
               tier.price
@@ -68,7 +83,7 @@ const tiers = [
           </p>
           <ul
             role="list"
-            class="text-sm/6 mt-8 space-y-3 text-gray-700 xl:mt-10"
+            class="text-sm/6 mt-8 w-full space-y-3 text-gray-700 xl:mt-10"
           >
             <li
               v-for="feature in tier.features"

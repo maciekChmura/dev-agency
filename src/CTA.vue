@@ -8,17 +8,11 @@
       >
         Let’s work together and build your MVP.
       </h2>
-      <!-- Google Calendar Appointment Scheduling begin -->
-      <div>
-        <iframe
-          src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ3AjLw_uzJzRkKRtFaBnFf0djjFd-SYi4UqKz-OFDFj5ofS5l5Ke6jY2hnogpIU5pGEtjHTj5__?gv=true"
-          style="border: 0"
-          width="100%"
-          height="600"
-          frameborder="0"
-        ></iframe>
-      </div>
-      <!-- end Google Calendar Appointment Scheduling -->
+      <a href="https://cal.com/maciek-chmura-idea-unlock">
+        <button class="submit-button hidden bg-gray-800 text-white md:block">
+          Book a call
+        </button>
+      </a>
     </div>
   </div>
 </template>

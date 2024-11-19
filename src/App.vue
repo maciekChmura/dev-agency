@@ -6,26 +6,27 @@ import Work from "./Work.vue";
 import About from "./About.vue";
 import CTA from "./CTA.vue";
 import Why from "./Why.vue";
+import Footer from "./Footer.vue";
 
 export default {
-  components: {Why, CTA, About, Work, Hero, Nav, Pricing},
+  components: { Why, CTA, About, Work, Hero, Nav, Pricing, Footer },
   data() {
     return {
       showMenu: false,
-    }
+    };
   },
-}
+};
 </script>
 
 <template>
   <div class="banner-1">
-    <Nav/>
-    <Hero/>
+    <Nav />
+    <Hero />
   </div>
-  <Why/>
-  <Work/>
-  <Pricing/>
-  <About/>
-  <CTA/>
+  <Why />
+  <Work />
+  <Pricing />
+  <About />
+  <CTA />
+  <Footer />
 </template>
-

@@ -43,7 +43,7 @@
       <!--      </li>-->
       <li class="menu-button"><a href="#about" v-smooth-scroll>About</a></li>
       <li class="menu-button">
-        <a href="#call" v-smooth-scroll>Book a call</a>
+        <a href="https://cal.com/maciek-chmura-idea-unlock">Book a call</a>
       </li>
     </ul>
   </nav>
