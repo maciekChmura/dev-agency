@@ -4,7 +4,7 @@
   <div class="banner-2 items-center md:flex md:justify-evenly" id="about">
     <img
       class="mx-auto h-44 rounded-full lg:h-[256px]"
-      src="./assets/avatar.png"
+      src="../public/assets/avatar.png"
       alt="user image"
     />
     <div class="space-y-5 py-8 px-8 md:w-1/2 md:py-16 md:px-20">

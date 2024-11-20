@@ -11,7 +11,7 @@ const showMenu = ref(false);
   >
     <div class="flex items-center justify-between">
       <div class="relative mr-4">
-        <img class="h-12 lg:h-20" src="./assets/logo.svg" alt="logo" />
+        <img class="h-12 lg:h-20" src="../public/assets/logo.svg" alt="logo" />
       </div>
       <div
         class="font-Eczar text-xl font-bold text-gray-900 lg:block lg:text-3xl"

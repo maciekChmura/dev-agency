@@ -5,24 +5,28 @@
     <div
       class="mx-4 flex flex-row flex-wrap items-center justify-evenly lg:mx-24 lg:flex"
     >
-      <img class="h-28" src="./assets/laravel.svg" alt="user image" />
+      <img class="h-28" src="../public/assets/laravel.svg" alt="user image" />
       <img
         class="hidden h-28 lg:block"
-        src="./assets/js.svg"
+        src="../public/assets/js.svg"
         alt="user image"
       />
       <img
         class="h-28 brightness-50"
-        src="./assets/react.svg"
+        src="../public/assets/react.svg"
         alt="user image"
       />
-      <img class="h-28" src="./assets/vue.svg" alt="user image" />
+      <img class="h-28" src="../public/assets/vue.svg" alt="user image" />
       <img
         class="m-4 h-12 opacity-75"
-        src="./assets/openai.svg"
+        src="../public/assets/openai.svg"
         alt="user image"
       />
-      <img class="m-4 h-12" src="./assets/stripe.svg" alt="user image" />
+      <img
+        class="m-4 h-12"
+        src="../public/assets/stripe.svg"
+        alt="user image"
+      />
     </div>
   </div>
 </template>

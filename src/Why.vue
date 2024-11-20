@@ -45,7 +45,7 @@ const ideaUnlock = [
           <img
             class="w-72"
             alt="problem with building a mvp"
-            src="./assets/problem.svg"
+            src="../public/assets/problem.svg"
           />
           <ul class="space-y-4">
             <li
@@ -65,7 +65,7 @@ const ideaUnlock = [
           <img
             class="w-72"
             alt="problem with building a mvp"
-            src="./assets/solution.svg"
+            src="../public/assets/solution.svg"
           />
           <ul class="space-y-4">
             <li

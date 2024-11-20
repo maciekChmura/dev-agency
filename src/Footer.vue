@@ -11,7 +11,7 @@ const currentYear = computed(() => new Date().getFullYear());
       <div class="flex flex-col items-center justify-center space-y-6">
         <!-- Logo and Brand -->
         <div class="flex items-center space-x-4">
-          <img class="h-12" src="./assets/logo.svg" alt="logo" />
+          <img class="h-12" src="../public/assets/logo.svg" alt="logo" />
           <div class="font-Eczar text-xl font-bold text-gray-900">
             IdeaUnlock
           </div>

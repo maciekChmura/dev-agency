@@ -24,13 +24,13 @@ import BookACall from "./BookACall.vue";
     <div class="flex w-7/12 justify-end">
       <img
         class="sm:h-[350px] md:h-[450px] lg:h-[550px] xl:h-[550px] 2xl:h-[650px] 3xl:h-[800px]"
-        src="./assets/hero.svg"
+        src="../public/assets/hero.svg"
         alt="user image"
       />
     </div>
   </div>
   <div class="mb-12 flex w-full flex-col items-center lg:hidden">
-    <img class="w-full" src="./assets/hero.svg" alt="user image" />
+    <img class="w-full" src="../public/assets/hero.svg" alt="user image" />
     <div class="mx-8 flex flex-col items-center space-y-5 md:space-y-10">
       <h1
         class="text-center font-Eczar text-4xl font-bold leading-tight text-gray-700"

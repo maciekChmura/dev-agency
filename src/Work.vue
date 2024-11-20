@@ -6,7 +6,7 @@ const apps = [
     description:
       "Project management tool that helps architectural and construction designers streamline project tracking, manage teams, and control costs efficiently. It includes features like profitability forecasting, labor cost analysis, and leave management to improve office operations and project delivery.",
     link: "https://timecube.app",
-    image: "./src/assets/timecube3.png",
+    image: "./assets/timecube3.png",
     status: "closed",
     type: "SaaS",
   },
@@ -16,7 +16,7 @@ const apps = [
     description:
       "AI-powered tool that streamlines medical documentation by transcribing consultations in real-time into clinical notes, summaries, and letters. It reduces administrative workload, offers customizable templates, and ensures data security while integrating seamlessly with practice management systems.",
     link: "https://patientnotes.ai/",
-    image: "./src/assets/patientnotes.png",
+    image: "./assets/patientnotes.png",
     status: "closed",
     type: "AI app",
   },
@@ -26,7 +26,7 @@ const apps = [
     description:
       "Rapidly growing job board in the UAE, connecting job seekers with employers across various industries. The platform offers AI tools for HR, professional resume services, and one-on-one candidate consultations to streamline the recruitment process.",
     link: "https://jobxdubai.com",
-    image: "./src/assets/jobx.png",
+    image: "./assets/jobx.png",
     status: "closed",
     type: "job board",
   },
@@ -36,7 +36,7 @@ const apps = [
     description:
       "Specialized job board designed exclusively for architects and design professionals. It connects talent with leading firms, offering a curated selection of opportunities in architecture, urban planning, and interior design.",
     link: "",
-    image: "./src/assets/archipins.png",
+    image: "./assets/archipins.png",
     status: "closed",
     type: "job board",
   },
