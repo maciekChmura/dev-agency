@@ -68,7 +68,7 @@ const apps = [
       </div>
       <div class="my-auto object-cover lg:w-1/2">
         <img
-          class="h-fit w-full transform rounded-2xl object-cover shadow-xl transition-transform duration-300 ease-in-out hover:-rotate-2 hover:scale-105"
+          class="min-h-full transform rounded-2xl object-cover shadow-xl transition-transform duration-300 ease-in-out hover:-rotate-2 hover:scale-105"
           :src="app.image"
         />
       </div>
