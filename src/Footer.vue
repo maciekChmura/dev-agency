@@ -33,11 +33,11 @@ const currentYear = computed(() => new Date().getFullYear());
                 >About</a
               >
             </li>
-            <li>
-              <a href="#call" class="text-gray-600 hover:text-gray-900"
-                >Book a call</a
-              >
-            </li>
+            <!--            <li>-->
+            <!--              <a href="#call" class="text-gray-600 hover:text-gray-900"-->
+            <!--                >Book a call</a-->
+            <!--              >-->
+            <!--            </li>-->
           </ul>
         </nav>
 

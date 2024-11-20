@@ -1,5 +1,5 @@
 <script setup>
-import {PhCheck} from "@phosphor-icons/vue";
+import { PhCheck } from "@phosphor-icons/vue";
 
 const traditional = [
   "6 months of minimum development time",
@@ -23,44 +23,58 @@ const ideaUnlock = [
   // "Deployment to a VPS",
   "Simple scalability",
   "24/7 tech support for 30 days post-launch",
-  "Transparent pricing"
+  "Transparent pricing",
 ];
 </script>
 
 <template>
-  <div class="bg-white py-24 sm:py-32 font-work_sans banner-2">
+  <div class="banner-2 bg-white py-24 font-work_sans sm:py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-4xl text-center">
         <!--        <p class=" font-semibold text-pink-600">Hiring a team is expensive</p>-->
-        <h2 class="mt-2 text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-6xl">
-          Why ideaUnlock?
-        </h2>
+        <h2 class="heading2">Why ideaUnlock?</h2>
       </div>
 
-      <div class="isolate mx-auto mt-10 grid max-w-md grid-cols-1 gap-8 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+      <div
+        class="isolate mx-auto mt-10 grid max-w-md grid-cols-1 gap-8 lg:mx-0 lg:max-w-none lg:grid-cols-2"
+      >
         <!-- Traditional Approach -->
-        <div class="space-y-8 card flex flex-col p-12 w-fit mx-auto">
-          <h3 class="text-xl font-semibold text-gray-900">Traditional Software House</h3>
-          <img class="w-72" alt="problem with building a mvp" src="./assets/problem.svg"/>
+        <div class="card mx-auto flex w-fit flex-col space-y-8 p-12">
+          <h3 class="text-xl font-semibold text-gray-900">
+            Traditional Software House
+          </h3>
+          <img
+            class="w-72"
+            alt="problem with building a mvp"
+            src="./assets/problem.svg"
+          />
           <ul class="space-y-4">
-            <li v-for="(feature, index) in traditional"
-                :key="index"
-                class="flex gap-x-3 items-center text-gray-600">
-              <PhCheck :size="24" class="text-gray-400"/>
+            <li
+              v-for="(feature, index) in traditional"
+              :key="index"
+              class="flex items-center gap-x-3 text-gray-600"
+            >
+              <PhCheck :size="24" class="text-gray-400" />
               <span>{{ feature }}</span>
             </li>
           </ul>
         </div>
 
         <!-- With ideaUnlock -->
-        <div class="space-y-8 card flex flex-col p-12 w-fit mx-auto">
-          <h3 class="text-xl font-semibold color-red">With ideaUnlock</h3>
-          <img class="w-72" alt="problem with building a mvp" src="./assets/solution.svg"/>
+        <div class="card mx-auto flex w-fit flex-col space-y-8 p-12">
+          <h3 class="color-red text-xl font-semibold">With ideaUnlock</h3>
+          <img
+            class="w-72"
+            alt="problem with building a mvp"
+            src="./assets/solution.svg"
+          />
           <ul class="space-y-4">
-            <li v-for="(feature, index) in ideaUnlock"
-                :key="index"
-                class="flex gap-x-3 items-center text-gray-600">
-              <PhCheck :size="24" class="color-red"/>
+            <li
+              v-for="(feature, index) in ideaUnlock"
+              :key="index"
+              class="flex items-center gap-x-3 text-gray-600"
+            >
+              <PhCheck :size="24" class="color-red" />
               <span>{{ feature }}</span>
             </li>
           </ul>
@@ -69,4 +83,3 @@ const ideaUnlock = [
     </div>
   </div>
 </template>
-

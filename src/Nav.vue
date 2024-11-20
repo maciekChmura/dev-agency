@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+import BookACall from "./BookACall.vue";
+</script>
 
 <template>
   <nav
@@ -42,9 +44,10 @@
       <!--        <a href="#testimonial" v-smooth-scroll>Testimonials</a>-->
       <!--      </li>-->
       <li class="menu-button"><a href="#about" v-smooth-scroll>About</a></li>
-      <li class="menu-button">
-        <a href="https://cal.com/maciek-chmura-idea-unlock">Book a call</a>
-      </li>
+      <!--      <li class="menu-button">-->
+      <!--        <a href="https://cal.com/maciek-chmura-idea-unlock">Book a call</a>-->
+      <!--      </li>-->
+      <BookACall />
     </ul>
   </nav>
 </template>

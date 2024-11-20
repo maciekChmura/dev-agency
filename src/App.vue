@@ -7,9 +7,10 @@ import About from "./About.vue";
 import CTA from "./CTA.vue";
 import Why from "./Why.vue";
 import Footer from "./Footer.vue";
+import Tech from "./Tech.vue";
 
 export default {
-  components: { Why, CTA, About, Work, Hero, Nav, Pricing, Footer },
+  components: { Tech, Why, CTA, About, Work, Hero, Nav, Pricing, Footer },
   data() {
     return {
       showMenu: false,
@@ -25,6 +26,7 @@ export default {
   </div>
   <Why />
   <Work />
+  <Tech />
   <Pricing />
   <About />
   <CTA />

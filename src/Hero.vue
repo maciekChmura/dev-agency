@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+import BookACall from "./BookACall.vue";
+</script>
 
 <template>
   <div class="flex items-center">
@@ -15,11 +17,7 @@
         budget.
       </h3>
       <div class="gap-1 md:flex md:gap-10">
-        <a href="https://cal.com/maciek-chmura-idea-unlock">
-          <button class="submit-button hidden bg-gray-800 text-white md:block">
-            Book a call
-          </button>
-        </a>
+        <BookACall />
       </div>
     </div>
 
