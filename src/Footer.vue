@@ -13,7 +13,7 @@ const currentYear = computed(() => new Date().getFullYear());
         <div class="flex items-center space-x-4">
           <img class="h-12" src="./assets/logo.svg" alt="logo" />
           <div class="font-Eczar text-xl font-bold text-gray-900">
-            ideaUnlock
+            IdeaUnlock
           </div>
         </div>
 
@@ -43,7 +43,7 @@ const currentYear = computed(() => new Date().getFullYear());
 
         <!-- Copyright -->
         <div class="text-sm text-gray-500">
-          © {{ currentYear }} ideaUnlock. All rights reserved.
+          © {{ currentYear }} IdeaUnlock. All rights reserved.
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 {
-  "name": "ideaUnlock",
-  "short_name": "ideaUnlock",
+  "name": "IdeaUnlock",
+  "short_name": "IdeaUnlock",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",

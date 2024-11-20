@@ -1,5 +1,8 @@
 <script setup>
+import { ref } from "vue";
 import BookACall from "./BookACall.vue";
+
+const showMenu = ref(false);
 </script>
 
 <template>
@@ -8,15 +11,12 @@ import BookACall from "./BookACall.vue";
   >
     <div class="flex items-center justify-between">
       <div class="relative mr-4">
-        <!--          <img-->
-        <!--            class="rounded-full border border-gray-100 shadow-sm"-->
-        <!--            src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=512&h=512&q=80"-->
-        <!--            alt="user image"-->
-        <!--          />-->
-        <img class="h-20" src="./assets/logo.svg" alt="logo" />
+        <img class="h-12 lg:h-20" src="./assets/logo.svg" alt="logo" />
       </div>
-      <div class="hidden font-Eczar text-3xl font-bold text-gray-900 lg:block">
-        ideaUnlock
+      <div
+        class="font-Eczar text-xl font-bold text-gray-900 lg:block lg:text-3xl"
+      >
+        IdeaUnlock
       </div>
       <!-- Mobile menu button -->
       <div @click="showMenu = !showMenu" class="flex md:hidden">
@@ -47,7 +47,9 @@ import BookACall from "./BookACall.vue";
       <!--      <li class="menu-button">-->
       <!--        <a href="https://cal.com/maciek-chmura-idea-unlock">Book a call</a>-->
       <!--      </li>-->
-      <BookACall />
+      <li class="menu-button">
+        <BookACall />
+      </li>
     </ul>
   </nav>
 </template>

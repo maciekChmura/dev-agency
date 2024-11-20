@@ -46,8 +46,12 @@ const apps = [
 <template>
   <div class="banner-1 space-y-10 pb-20" id="work">
     <h3 class="heading2 my-16 text-center font-Eczar">Recent MVP's</h3>
-    <div class="my-6 flex flex-row" v-for="app in apps" :key="app.id">
-      <div class="space-y-16 py-8 px-8 md:w-1/2 md:py-16 md:px-20">
+    <div
+      class="my-6 flex flex-col-reverse lg:flex-row"
+      v-for="app in apps"
+      :key="app.id"
+    >
+      <div class="space-y-8 py-8 px-8 lg:w-1/2 lg:py-16 lg:px-20">
         <div class="flex flex-row justify-between">
           <h4 class="project-title item text-[#FF4560]">{{ app.name }}</h4>
           <span
@@ -55,14 +59,14 @@ const apps = [
             >{{ app.type }}</span
           >
         </div>
-        <p class="pr-12 font-work_sans">
+        <p class="text-pretty font-work_sans">
           {{ app.description }}
         </p>
         <button v-if="app.link" class="color-gray-700 text-xl tracking-wider">
           <a :href="app.link" target="_blank">view project →</a>
         </button>
       </div>
-      <div class="my-auto w-1/2 object-cover">
+      <div class="my-auto object-cover lg:w-1/2">
         <img
           class="h-fit w-full transform rounded-2xl object-cover shadow-xl transition-transform duration-300 ease-in-out hover:-rotate-2 hover:scale-105"
           :src="app.image"

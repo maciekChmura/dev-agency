@@ -53,7 +53,7 @@ const tiers = [
 </script>
 
 <template>
-  <div class="baner-1 py-24 sm:py-32">
+  <div class="banner-1">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-4xl text-center">
         <h2 class="heading2">Simple pricing</h2>
@@ -89,7 +89,7 @@ const tiers = [
               :key="feature"
               class="flex gap-x-3"
             >
-              <PhCheck :size="24" />
+              <PhCheck :size="24" class="shrink-0" />
               {{ feature }}
             </li>
           </ul>

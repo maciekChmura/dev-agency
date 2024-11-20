@@ -20,7 +20,6 @@ const ideaUnlock = [
   "Weekly updates and rapid iterations",
   "Optimized, modern full stack (Laravel, React)",
   "Built in security",
-  // "Deployment to a VPS",
   "Simple scalability",
   "24/7 tech support for 30 days post-launch",
   "Transparent pricing",
@@ -28,11 +27,11 @@ const ideaUnlock = [
 </script>
 
 <template>
-  <div class="banner-2 bg-white py-24 font-work_sans sm:py-32">
-    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+  <div class="banner-2 bg-white font-work_sans">
+    <div class="mx-auto max-w-7xl px-2 lg:px-8">
       <div class="mx-auto max-w-4xl text-center">
         <!--        <p class=" font-semibold text-pink-600">Hiring a team is expensive</p>-->
-        <h2 class="heading2">Why ideaUnlock?</h2>
+        <h2 class="heading2">Why IdeaUnlock?</h2>
       </div>
 
       <div
@@ -54,7 +53,7 @@ const ideaUnlock = [
               :key="index"
               class="flex items-center gap-x-3 text-gray-600"
             >
-              <PhCheck :size="24" class="text-gray-400" />
+              <PhCheck :size="24" class="shrink-0 text-gray-400" />
               <span>{{ feature }}</span>
             </li>
           </ul>
@@ -62,7 +61,7 @@ const ideaUnlock = [
 
         <!-- With ideaUnlock -->
         <div class="card mx-auto flex w-fit flex-col space-y-8 p-12">
-          <h3 class="color-red text-xl font-semibold">With ideaUnlock</h3>
+          <h3 class="color-red text-xl font-semibold">With IdeaUnlock</h3>
           <img
             class="w-72"
             alt="problem with building a mvp"
@@ -74,7 +73,7 @@ const ideaUnlock = [
               :key="index"
               class="flex items-center gap-x-3 text-gray-600"
             >
-              <PhCheck :size="24" class="color-red" />
+              <PhCheck :size="24" class="color-red shrink-0" />
               <span>{{ feature }}</span>
             </li>
           </ul>
