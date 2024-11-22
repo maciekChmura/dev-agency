@@ -7,7 +7,7 @@ const showMenu = ref(false);
 
 <template>
   <nav
-    class="container mx-auto px-6 md:flex md:items-center md:justify-between"
+    class="width-content px-4 md:flex md:items-center md:justify-between lg:px-0"
   >
     <div class="flex items-center justify-between">
       <div class="relative mr-4">

@@ -10,7 +10,7 @@ import BookACall from "./BookACall.vue";
       >
         Let’s work together and build your MVP.
       </h2>
-      <img class="h-fit w-full lg:w-1/3" src="../public/assets/highfive.svg" />
+      <img class="h-fit w-full lg:w-1/4" src="../public/assets/highfive.svg" />
       <BookACall />
     </div>
   </div>

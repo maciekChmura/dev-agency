@@ -1,6 +1,5 @@
 <script setup>
 import { PhCheck } from "@phosphor-icons/vue";
-import BookACall from "./BookACall.vue";
 
 const tiers = [
   {
@@ -54,7 +53,7 @@ const tiers = [
 
 <template>
   <div class="banner-1">
-    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="width-content max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-4xl text-center">
         <h2 class="heading2">Simple pricing</h2>
       </div>

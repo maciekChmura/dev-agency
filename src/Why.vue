@@ -28,17 +28,17 @@ const ideaUnlock = [
 
 <template>
   <div class="banner-2 bg-white font-work_sans">
-    <div class="mx-auto max-w-7xl px-2 lg:px-8">
+    <div class="width-content px-2 lg:px-8">
       <div class="mx-auto max-w-4xl text-center">
         <!--        <p class=" font-semibold text-pink-600">Hiring a team is expensive</p>-->
         <h2 class="heading2">Why IdeaUnlock?</h2>
       </div>
 
       <div
-        class="isolate mx-auto mt-10 grid max-w-md grid-cols-1 gap-8 lg:mx-0 lg:max-w-none lg:grid-cols-2"
+        class="isolate mx-auto mt-10 grid max-w-md grid-cols-1 gap-12 lg:mx-0 lg:max-w-7xl lg:grid-cols-2"
       >
         <!-- Traditional Approach -->
-        <div class="card mx-auto flex w-fit flex-col space-y-8 p-12">
+        <div class="card mx-auto flex w-full flex-col space-y-8 p-12">
           <h3 class="text-xl font-semibold text-gray-900">
             Traditional Software House
           </h3>
@@ -60,7 +60,7 @@ const ideaUnlock = [
         </div>
 
         <!-- With ideaUnlock -->
-        <div class="card mx-auto flex w-fit flex-col space-y-8 p-12">
+        <div class="card mx-auto flex w-full flex-col space-y-8 p-12">
           <h3 class="color-red text-xl font-semibold">With IdeaUnlock</h3>
           <img
             class="w-72"

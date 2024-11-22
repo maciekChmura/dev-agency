@@ -5,6 +5,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.width-content {
+    @apply container mx-auto max-w-7xl lg:px-0 px-4
+}
+
 .color-red {
     color: #FF4560
 }
@@ -15,22 +19,22 @@
 }
 
 .banner-1 {
-    @apply px-5  pt-5 md:pt-10 3xl:px-36 2xl:px-36 xl:px-28 lg:px-24 md:px-16;
+    @apply pt-5 ;
     background-color: #ffffff;
 }
 
 .banner-2 {
-    @apply px-5  pt-5 md:pt-10 3xl:px-36 2xl:px-36 xl:px-28 lg:px-24 md:px-16;
+    @apply pt-5 ;
     background-color: #ffddbf;
 }
 
 .banner-3 {
-    @apply px-5  pt-5 md:pt-10 3xl:px-36 2xl:px-36 xl:px-28 lg:px-24 md:px-16;
+    @apply pt-5 ;
     background-color: #fff7e3;
 }
 
 .banner-4 {
-    @apply px-5  pt-5 md:pt-10 3xl:px-36 2xl:px-36 xl:px-28 lg:px-24 md:px-16;
+    @apply pt-5 ;
     background-color: #FFE843;
 }
 

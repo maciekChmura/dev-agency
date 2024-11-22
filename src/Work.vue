@@ -44,7 +44,7 @@ const apps = [
 </script>
 
 <template>
-  <div class="banner-1 space-y-10 pb-20" id="work">
+  <div class="banner-1 width-content space-y-10 pb-20" id="work">
     <h3 class="heading2 my-16 text-center font-Eczar">Recent MVP's</h3>
     <div
       class="my-6 flex flex-col-reverse lg:flex-row"
