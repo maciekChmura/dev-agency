@@ -55,7 +55,7 @@ const apps = [
         <div class="flex flex-row justify-between">
           <h4 class="project-title item text-[#FF4560]">{{ app.name }}</h4>
           <span
-            class="inline-flex h-8 items-center rounded-full bg-red-50 px-4 py-0 text-sm font-medium text-red-600 ring-1 ring-inset ring-red-500/10"
+            class="inline-flex h-8 items-center whitespace-nowrap rounded-full bg-red-50 px-4 py-0 text-sm font-medium text-red-600 ring-1 ring-inset ring-red-500/10"
             >{{ app.type }}</span
           >
         </div>
